@@ -1,0 +1,75 @@
+body {
+  background-color: hsl(0, 0%, 10%);
+}
+
+.to-do-list {
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1 {
+  font-size: 4rem;
+  color: whitesmoke;
+}
+
+button {
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.add-btn {
+  background-color: rgb(27, 194, 27);
+}
+
+.dlt-btn {
+  background-color: red;
+}
+
+.move-btn {
+  background-color: blue;
+}
+
+.move-btn:hover {
+  background-color: rgb(56, 93, 207);
+}
+
+input[type="text"] {
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid rgb(198, 198, 198);
+  border-radius: 5px;
+  color: grey;
+}
+
+ol {
+  padding: 0;
+}
+
+li {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: #fff;
+  margin-bottom: 10px;
+  border: 3px solid rgb(198, 198, 198);
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  flex: 1;
+}
+
+.dlt-btn,
+.move-btn {
+  padding: 18px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
